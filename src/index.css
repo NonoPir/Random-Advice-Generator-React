@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Space+Mono:wght@700&display=swap");
+body {
+  margin: 0;
+  display: flex;
+  background-color: hsl(218, 23%, 16%);
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope";
+}
+
+.adviceBG {
+  display: flex;
+  background-color: hsl(217, 19%, 24%);
+  width: 600px;
+  height: 400px;
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+}
+
+.text-sm {
+  color: hsl(150, 100%, 66%);
+}
+.dice-bg {
+  background-color: hsl(150, 100%, 66%);
+  margin-top: 430px;
+}
